@@ -1,0 +1,390 @@
+.main-div {
+    width: 100%;
+    height: auto;
+     margin-left:auto;
+     margin-right:auto;
+     background-color:#ffffff;
+     display:flex;
+}
+
+
+.add-product-div{
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left:89px;
+}
+
+
+.pm1{
+  background-image: url(resourses/payment-method-images/american_express_img.png);
+}
+.pm2{
+  background-image: url(resourses/payment_method_images/paypal_img.png);
+}
+.pm3{
+  background-image: url(resourses/payment_method_images/mastercard_img.png);
+}
+.pm4{
+  background-image: url(resourses/payment_method_images/american_express_img.png);
+}
+
+
+
+
+
+
+.main-Fh-div {
+    width: 50%;
+    height: 904px;
+    flex-shrink: 0;
+    background: #F5F7FB;
+    padding:6px;
+   
+}
+
+.m1{
+    width: 600px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-add-div{
+    width: 630px;
+    height: 248px
+    ;flex-shrink: 0;
+    background: #ffffff;
+    margin-top:30px
+}
+
+.formHading{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 56px;
+    
+}
+
+.formHading1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.pamient-img-div{
+    width: 469px;
+    height: 98px;
+    flex-shrink: 0;
+    background-color: rgb(255, 255, 255);
+    margin-left: 38px;
+    margin-top: 18px;
+}
+
+.main-Hh-div{
+    width: 50%;
+    height: 904px;
+    flex-shrink: 0;
+    background-color:#F5F7FB;padding: 20px;
+  }
+
+.form-div-1{
+    width: 544px;
+    height: 463px;
+    flex-shrink: 0;
+    background: #ffffff;
+    margin-top:41px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  .main-HHH-div{
+    width: 758px;
+    height: 747px;
+    flex-shrink: 0;
+    background-color:#ffffff;
+    border-radius: 20px 20px 0px 0px;
+    padding: 54px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+  .main-HHHH-div{
+    background-color:rgb(255, 255, 255);
+     width: 758px;
+     height: 88px;
+     flex-shrink: 0;
+     border-radius: 0px 0px 20px 20px; 
+     margin-top:10px;
+     display:flax;
+     margin-left: auto;
+     margin-right: auto;
+  }
+  .save-cancal-div{
+    display: flex;
+    width: 173px;
+    height: 37px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 11px;
+    flex-shrink: 0;
+    margin-left:548px;
+   
+}
+
+.cancel-h-btn{
+    width: 81px;
+    height: 37px;
+    border-radius: 5px;
+    
+    border: 1px solid #000;
+    background: #D9D9D9;
+    margin-top:26px;
+     color: #000;
+     font-family: Poppins;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     margin-left:20px;
+}
+
+.save-h-btn{
+    width: 81px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #98002C;
+    margin-top:26px; 
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left:20px;
+}
+
+
+  @media screen and (max-width:1500px) {
+    .main-Fh-div{
+        background-color:#F5F7FB;
+        display: block;
+        
+    }
+    .img-add-div{
+       
+        width: auto;
+        height: auto;
+    }
+    .main-Hh-div{
+        background-color:#F5F7FB;
+        display: block;
+    }
+
+    
+    
+    .main-HHH-div{
+        background-color: #FFF;
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .main-HHHH-div{
+        background-color:#FFF;
+        display: block;
+        width: auto;
+        height: 80px;
+    }
+
+    .cancel-h-btn{
+        display: block;
+        margin-top: 26px;
+        width: 75px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 10px;
+      
+    }
+    .save-h-btn{
+        display: block;
+        margin-top: 26px;
+        width: 75px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 10px;
+   
+      
+    }
+
+  }
+
+  @media screen and (max-width:1497px) {
+
+    .save-cancal-div{
+        width: 173px;
+    height: 37px;
+    margin-left:500px;
+    }
+  }
+  @media screen and (max-width:1431px) {
+
+    .save-cancal-div{
+        width: 173px;
+    height: 37px;
+    margin-left:470px;
+    }
+  }
+ 
+  @media screen and (max-width:1419px) {
+
+    .save-cancal-div{
+        width: 173px;
+    height: 37px;
+    margin-left:450px;
+    }
+  }
+  @media screen and (max-width:1243px) {
+
+    .img-add-div{
+        width: 550px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  @media screen and (max-width:1211px) {
+
+    .img-add-div{
+        width: 450px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-div-1{
+        width: 440px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pamient-img-div{
+        width: 400px;
+        
+    }
+  }
+  @media screen and (max-width:1283px) {
+
+    .save-cancal-div{
+        width: 173px;
+    height: 37px;
+    margin-left:400px;
+    }
+  }
+ 
+  @media screen and (max-width:1210px) {
+
+    .save-cancal-div{
+        width: 173px;
+    height: 37px;
+    margin-left:340px;
+    }
+  }
+ 
+
+  
+   @media screen and (max-width:1000px) {
+
+    .main-HHH-div{
+    
+  margin-top: 10px;
+  width: 100%;
+  
+  margin-left: 10px;
+  
+
+   }
+   .main-HHHH-div{
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    
+    
+    
+    
+   }
+   .main-Hh-div{
+    display: block;
+    margin-top: 900px;
+    width: 100%;
+    margin-left: -100%;
+    height: 1200px;
+     
+   }
+
+   .cancel-h-btn{
+    margin-left: 800px;
+   
+   
+   }
+   .main-Fh-div{
+    width: 100%;
+   }
+   .img-add-div{
+    width: 100%;
+    height: 50%;
+   }
+   .form-div-1{
+    width: 100%;
+   }
+   
+   
+
+  } 
+
+  
+   @media screen and (max-width:1110px) {
+
+    .save-cancal-div{
+        width: 173px;
+    height: 37px;
+    margin-left:280px;
+    }
+  } 
+   @media screen and (max-width:990px) {
+   .main-div{
+    width: 100%;
+    height: auto;
+     margin-left:auto;
+     margin-right:auto;
+     background-color:#ffffff;
+    
+   }
+  } 
+   @media screen and (max-width:990px) {
+    .cancel-h-btn{
+        margin-left: 200px;
+  } 
+
+  .pamient-img-div{
+    width: 400px;
+    margin-left: 80px;
+  }
+ 
+  .add-product-div{
+    font-size: 40px;
+    margin-left: 120PX;
+    
+  }
+} 
